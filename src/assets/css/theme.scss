@@ -1,0 +1,33 @@
+@import '../font/iconfont.css';
+@import 'index.scss';
+@import 'icon.scss';
+
+.theme {
+    color: $c-theme !important;
+}
+.theme-bg {
+    background-color: $c-theme;
+}
+//滚动条
+::-webkit-scrollbar-thumb {
+    background-color: $c-theme;
+}
+//icom
+.icon-add,
+.icon-refresh,
+.icon-clone,
+.icon-upload,
+.icon-download,
+.icon-edit,
+.icon-edit1,
+.icon-music,
+.icon-media-folder,
+.icon-view-collection-terminal,
+.icon-terminals1,
+.icon-grade,
+.icon-select-file,
+.icon-clear-log,
+.icon-export,
+.el-table__expand-icon>.el-icon {
+    color: $c-theme;
+}
